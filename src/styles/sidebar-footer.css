@@ -168,10 +168,17 @@ h1 {
     border-radius: 20px;
 }
 
+footer {
+    display: flex;
+    
+}
+
 .sign-up {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-    background: linear-gradient(to right, #ae2896, #509bf5);
+    background: linear-gradient(90deg, #af2896, #509bf5);
     position: fixed;
     bottom: 0;
     left: 0;
@@ -179,7 +186,8 @@ h1 {
     padding: 15px 20px;
     gap: 24px;
     cursor: pointer;
-    height: 50px;
+    min-width: 620px;
+    height: auto;
 }
 
 .sign-up__text {
